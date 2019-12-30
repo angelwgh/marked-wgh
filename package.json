@@ -1,0 +1,26 @@
+{
+  "name": "wgh-myweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelwgh/hpp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelwgh/hpp/issues"
+  },
+  "homepage": "https://github.com/angelwgh/hpp#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "jquery": "^1.12.4",
+    "open": "0.0.5",
+    "swiper": "^4.2.6"
+  }
+}

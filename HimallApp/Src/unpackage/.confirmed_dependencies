@@ -1,0 +1,137 @@
+{
+	"index.html": {
+		"resources": [
+			"home.html"
+		],
+		"refer": [
+			"vshop.html",
+			"product-detail.html",
+			"usercenter.html",
+			"home.html",
+			"stores.html",
+			"guide.html",
+			"cart-box.html",
+			"search.html"
+		]
+	},
+	"usercenter.html": {
+		"refer": [
+			"login.html",
+			"user-assets.html",
+			"user-account.html",
+			"user-coupon.html",
+			"order-list.html",
+			"address.html",
+			"user-favproduct.html",
+			"user-favshop.html",
+			"order-refund-list.html",
+			"integral-use.html"
+		]
+	},
+	"user-assets.html": {
+		"refer": [
+			"user-recharge.html"
+		]
+	},
+	"user-account.html": {
+		"refer": [
+			"user-info.html"
+		]
+	},
+	"user-favshop.html": {
+		"refer": [
+			"vshop-detail.html"
+		]
+	},
+	"cart-box.html": {
+		"resources": [
+			"cart.html"
+		],
+		"refer": [
+			"cart.html"
+		]
+	},
+	"product-detail.html": {
+		"refer": [
+			"vshop-detail.html",
+			"store-list.html",
+			"store-home.html"
+		]
+	},
+	"login.html": {
+		"refer": [
+			"bind-phone.html",
+			"user-favproduct.html",
+			"user-account.html"
+		]
+	},
+	"home.html": {
+		"refer": [
+			"web-show.html",
+			"integral-home.html",
+			"merge-detail.html",
+			"topic-detail.html",
+			"noauth.html"
+		]
+	},
+	"integral-home.html": {
+		"refer": [
+			"integral-coupon.html",
+			"integral-use.html",
+			"integral-detail.html"
+		],
+		"resources": [
+			"images/inte-icon.png",
+			"images/blank.gif",
+			"images/logo-bg.png"
+		]
+	},
+	"integral-use.html": {
+		"refer": [
+			"integral-order.html"
+		]
+	},
+	"integral-order.html": {
+		"refer": [
+			"integral-order-detail.html"
+		]
+	},
+	"address.html": {
+		"refer": [
+			"address-add.html"
+		]
+	},
+	"stores.html": {
+		"refer": [
+			"store-search.html",
+			"store-home.html"
+		]
+	},
+	"store-home.html": {
+		"refer": [
+			"store-product-detail.html"
+		]
+	},
+	"store-search.html": {
+		"refer": [
+			"store-home.html"
+		]
+	},
+	"order-list.html": {
+		"refer": [
+			"order-evaluate.html",
+			"order-express.html"
+		]
+	},
+	"cart.html": {
+		"refer": [
+			"order-submit.html"
+		]
+	},
+	"integral-detail.html": {
+		"refer": [
+			"login.html",
+			"integral-submit.html"
+		]
+	}
+}

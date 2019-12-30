@@ -1,0 +1,397 @@
+/*banner大图*/
+
+.m-banner{
+	/*width: 100%;*/
+	height: 526px;
+	min-width: 1200px;
+	overflow: hidden;
+}
+.m-banner .banner-img{
+	position: absolute;
+	width: 0;
+	height: 100%;
+	left: 50%;
+}
+
+.m-banner .banner-img img{
+	position: absolute;
+	left: -960px;
+}
+
+
+/*扶贫城市列表样式*/
+
+
+.m-pr-cities{
+	width: 100%;
+	margin-top: 60px;
+}
+
+.m-pr-cities .title{
+
+	width: 100%;
+}
+
+.m-pr-cities .title .line{
+	position: absolute;
+	top: 50%;
+	width: 486px;
+	height: 1px;
+	background-color: #ddd;
+}
+
+.m-pr-cities .title .line:after{
+	content: '';
+	position: absolute;
+	top: -1px;
+	width: 22px;
+	height: 3px;
+	background-color: #c2c2c2;
+}
+
+.m-pr-cities .title .left-line:after{
+	right: 0;
+}
+
+.m-pr-cities .title .right-line{
+	right: 0;
+}
+
+.m-pr-cities .title-text{
+
+}
+
+.m-pr-cities .title-text h3{
+	margin: 5px 0;
+	text-align: center;
+	color: #992b23;
+	font-size: 24px;
+	font-weight: normal;
+
+}
+
+.m-pr-cities .title-text div{
+	text-align: center;
+	color: #a1a0a0;
+	font-size: 18px;
+	text-transform:uppercase;
+	font-family: 'Myriad Pro'
+}
+
+.m-pr-cities .cities-group{
+	margin-top: 50px;
+}
+
+.m-pr-cities .city-item{
+	width: 240px;
+	background-color: #fafafa;
+	overflow: hidden;
+}
+
+.m-pr-cities .city-item:nth-child(2n-1)  .city-container{
+	background-color: #fafafa;
+}
+
+.m-pr-cities .city-item .city-mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+	background-color: #992b23;
+}
+
+.m-pr-cities .city-item .city-container{
+	margin: 3px;
+	background-color: #fff;
+	overflow: hidden;
+
+}
+
+.m-pr-cities .city-item .city-title{
+	margin-top: 34px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.m-pr-cities .city-item .city-title span{
+	vertical-align: middle;
+	font-family: '微软雅黑';
+	font-weight: bold;
+	color: #323245;
+}
+
+.m-pr-cities .city-item .city-title .icon{
+	display: inline-block;
+	width: 15px;
+	height: 22px;
+	background-image: url('../images/pr_icon.png');
+	background-repeat: no-repeat;
+	background-position: -20px 0;
+}
+
+.m-pr-cities .city-item .city-img{
+	margin: 27px 0;
+	font-size: 0;
+	text-align: center;
+}
+
+.m-pr-cities .city-item .city-cat-btns{
+	margin: 2px 0 23px; 
+}
+
+.m-pr-cities .city-item .city-cat-btn{
+	margin: 5px 0 5px 11px;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+	text-decoration: none;
+	background-color: #f1f1f1;
+	border-radius: 15px 15px 0 15px;
+}
+
+
+.m-pr-cities .city-item.active .city-mask{
+	display: block;
+}
+
+.m-pr-cities .city-item.active .city-container{
+	background-color: transparent;
+}
+
+.m-pr-cities .city-item.active .city-title span{
+	color: #fff;
+}
+
+.m-pr-cities .city-item.active .city-title .icon{
+	background-position: 0 0;
+}
+
+.m-pr-cities .city-item.active .city-cat-btn{
+	color: #992b23;
+}
+
+/*新闻 产地 动态*/
+
+.news-title {
+
+}
+
+.news-title h3{
+	margin: 5px 0;
+	font-weight: normal;
+	font-size: 18px;
+	color: #333;
+}
+
+.news-title div{
+	font-size: 12px;
+	color: #c2c2c2;
+	text-transform:uppercase;
+}
+
+.news-title .add{
+	position: absolute;
+	right: 15px;
+	top:10px;
+	width: 23px;
+	height: 23px;
+	cursor: pointer;
+	background-image: url(../images/pr_icon.png);
+	background-position: 0 -30px;
+}
+
+
+
+
+.m-company-news .news-img{
+	padding: 0 147px;
+	height: 185px;
+	width: 0px;
+	overflow: hidden;
+
+}
+
+.m-company-news .news-img img{
+	margin-left: -147px
+}
+
+.m-company-news .item-text .item-left{
+	
+	width: 64px;
+	height: 57px;
+	background-color: #992b23;
+}
+
+.m-company-news .item-text .item-left .text{
+	text-align: center;
+	height: 28px;
+	line-height: 28px;
+	color: #fff;
+}
+
+.m-company-news .item-text .item-left .line{
+	opacity: 0.3;
+	margin-left: 15px;
+	height: 1px;
+	width: 35px;
+	background-color: #fff;
+}
+
+.m-company-news .item-text .item-right{
+	margin-left: 64px;
+	width: 230px;
+}
+
+.m-company-news .item-text .item-right div{
+	margin-left: 10px;
+	line-height: 28px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+
+.m-company-news .news-list{
+	margin-left: 15px;
+	width: 260px;
+	height: 240px;
+}
+
+.m-company-news .news-list .new-list-item{
+	height: 59px;
+	border-bottom: 1px dashed #ccc;
+	overflow: hidden;
+}
+
+.m-company-news .new-list-item div{
+	line-height: 25px;
+}
+
+.m-company-news .new-list-item .news-title{
+	margin-top: 5px;
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	cursor: default;
+}
+
+
+.m-company-news .new-list-item .news-time{
+	text-indent: 1em;
+	color:#a0a0a0;
+}
+
+
+.m-boutique-item {
+	margin-left: 20px;
+}
+
+.m-boutique-item .bou-swiper{
+	width: 310px;
+	height: 200px;
+	overflow: hidden;
+}
+
+.m-boutique-item .swiper-info{
+	height: 40px;
+}
+
+.m-boutique-item .swiper-info .swiper-title{
+	width: 200px;
+	line-height: 40px;
+}
+
+.m-boutique-item .swiper-info .swiper-nav{
+	width: 110px;
+	margin-left: 200px;
+	height: 40px;
+}
+
+.m-boutique-item .swiper-info .swiper-bullet{
+	margin: 13px 0 0 5px;
+	width: 14px;
+	height: 14px;
+	background-color: #fff;
+	border-radius: 50%;
+	border: 1px solid #f1f1f1;
+	box-shadow: 3px 3px 3px 0px #ccc inset
+}
+
+.m-boutique-item .swiper-info .swiper-bullet.active{
+	box-shadow: none;
+	border-color: #1769b3;
+	background-color: #1769b3;
+}
+
+.m-company-about{
+	width: 265px;
+}
+.m-company-about .about-tab-bar-item{
+	width: 88px;
+	height: 77px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+	cursor: pointer;
+	background-color: #992b23;
+}
+
+.m-company-about .about-tab-bar-item-icon{
+	margin: 10px auto;
+	width: 32px;
+	height: 34px;
+	background-image: url(../images/pr_icon.png);
+	
+}
+
+.m-company-about .about-tab-bar-item.active{
+	color: #666666;
+	background-color: #fff;
+}
+
+
+.m-company-about .honor{
+	background-position: -40px -40px;
+}
+.m-company-about .active .honor{
+	background-position: -40px 0;
+}
+
+.m-company-about .team{
+	width: 39px;
+	background-position: -80px -40px;
+}
+
+.m-company-about .active .team{
+	background-position: -80px 0px;
+}
+
+.m-company-about .msg{
+	width: 39px;
+	background-position: -120px -40px;
+}
+
+.m-company-about .active .msg{
+	background-position: -120px -40px;
+}
+
+.m-company-about .about-tab-detail .detail{
+	display: none;
+}
+
+.m-company-about .about-tab-detail .honer .view-more{
+	color: #1769b3;
+	text-decoration: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}

@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	font-size: 12px;
+	font-family: 'Microsoft YaHei';
+
+}
+
+
+/*功能区块*/
+
+.f-fl{float: left}
+.f-fr{float: right;}
+.f-clearfix:after{content: ''; display: block;clear: both;}
+.f-pr{position: relative;}
+.f-pa{position: absolute;}
+
+.f-mt30{margin-top: 30px;}
+.f-mt60{margin-top: 60px;}
+
+.f-ml20{
+	margin-left: 20px;
+}
+
+.f-text-ellipsis{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.f-text-ellopsis-2{
+
+}
+
+.m-wrapper{
+	text-overflow: ellipsis;
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+}
+
+
